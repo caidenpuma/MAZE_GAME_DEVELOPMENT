@@ -116,7 +116,7 @@ The maze structure is defined in a Google Sheets document with:
 ### Installation Process
 1. Configure spreadsheet ID in the source code
 2. Load project dependencies and support libraries
-3. Initialize game state with maze and item data
+3. Initialize game state with maze and item data fromo configuration
 4. Launch reactor-based game loop
 
 ### Configuration
@@ -125,6 +125,9 @@ ssid = "YOUR_SPREADSHEET_ID_HERE"
 maze-data = load-maze(ssid)
 item-data = load-items(ssid)
 ```
+* https://docs.google.com/spreadsheets/d/1VI21BIZMZGfxU43gf1tnd8VWimNioKH5iVQLTR6ZaLs/edit?usp=sharing
+* https://docs.google.com/spreadsheets/d/1s5DpnEhJsiXYHKDUJvbi4unTJKCFb0dog9lZPhwb4mU/edit?usp=sharing
+* https://docs.google.com/spreadsheets/d/1Nt2JKwBK8gtVOQ7f5UtU-2K-P9WTLb7g3S6upqLK2cg/edit?usp=sharing
 
 ## Performance Optimization
 
